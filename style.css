@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: cursive;
+    background-color: black; /* Black background for body */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+main {
+    width: 500px; /* Fixed width for square shape */
+    height: 500px; /* Fixed height for square shape */
+    background-color: yellow; /* Yellow background inside container */
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    border: 1px solid black; /* Black border around container */
+    border-radius: 20px; /* Smooth corners */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space between header, form, and footer */
+    align-items: center; /* Centers content horizontally */
+    padding: 20px;
+}
+header {
+    width: 100%;
+    background-color: black; /* Black background for header */
+    color: yellow; /* Yellow text for contrast */
+    padding: 15px;
+    text-align: center; /* Centers header text */
+    border-radius: 10px; /* Smooth corners for header */
+    border: 1px solid black; /* Black border around header */
+}
+header h1 {
+    font-size: 25px; /* Bigger font size for visibility */
+}
+form {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+form input[type="text"] {
+    padding: 12px; /* Adds spacing inside the input */
+    font-size: 16px; /* Improves readability */
+    border: 1px solid black; /* Ensures black border */
+    border-radius: 8px; /* Smooth corners */
+    background-color: white; /* White background for contrast */
+    margin-right: 5px; /* Adds spacing between input and button */
+    flex-grow: 1; /* Ensures input fills available space */
+}
+form button[type="submit"] {
+    padding: 12px; /* Adds padding */
+    font-size: 16px; /* Improves readability */
+    border: 1px solid black; /* Ensures black border */
+    border-radius: 8px; /* Smooth corners */
+    background-color: black; /* Black background for button */
+    color: white; /* White text on button */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+form button[type="submit"]:hover {
+    background-color: black; /* Keeps background black */
+    color: white; /* Ensures text stays white */
+}
+.result {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: white; /* White background for result */
+    box-shadow: 0px 0px 5px black; /* Slight shadow for result */
+    border: 1px solid black; /* Black border around result */
+    border-radius: 10px; /* Smooth corners for result */
+    color: black; /* Black text for readability */
+}
+footer {
+    width: 100%;
+    background-color: black; /* Black background for footer */
+    color: yellow; /* Yellow text for contrast */
+    padding: 10px; /* Adds spacing */
+    font-size: 15px; /* Improves readability */
+    text-align: center; /* Centers footer text */
+    border-radius: 10px; /* Smooth corners for footer */
+    border: 1px solid black; /* Black border around footer */
+}
