@@ -27,17 +27,7 @@ Error handling for invalid or missing words
 Responsive and minimalist UI for all screen sizes
 Smooth transitions and modern design aesthetics
 
-Folder Structure
-
-lexicon
-│
-├── index.html → Main page and search layout
-├── style.css → Styles and responsive design
-├── script.js → JavaScript for API requests and logic
-└── assets/ → Icons, images, and sound files (if any)
-
-How It Works
-
+How it works:
 The user types a word into the search bar.
 
 JavaScript sends a request to the Dictionary API.
@@ -63,28 +53,8 @@ Design a clean and functional user interface with CSS
 Make layouts adaptive across screen sizes
 
 This project also taught me the importance of balancing design with function — creating something both educational and enjoyable to use.
+<img width="777" height="738" alt="Screenshot 2026-04-07 123503" src="https://github.com/user-attachments/assets/378ef20d-9e1f-462a-94e5-75041a437fd0" />
 
-Contact
-
-For questions, feedback, or collaboration opportunities, feel free to reach out:
-
-Email: shayanrajpoot520@gmail.com
-
-LinkedIn: https://www.linkedin.com/in/m-shayan-faisal/
-
-GitHub: https://github.com/shayan520898?tab=repositories
-
-Future Improvements
-
-Add audio pronunciation with native speaker voice
-
-Introduce word history and favorites section
-
-Implement a dark and light mode toggle
-
-Add translation support for multiple languages
-
-Integrate daily word suggestion for vocabulary growth
 
 License
 
