@@ -12,6 +12,9 @@ The app connects to a free dictionary API to fetch accurate, real-time definitio
 
 Every part of Lexicon was built with usability and accessibility in mind — from the search bar to the dynamic content display.
 
+<img width="777" height="738" alt="Screenshot 2026-04-07 123503" src="https://github.com/user-attachments/assets/378ef20d-9e1f-462a-94e5-75041a437fd0" />
+
+
 Technologies Used
 
 HTML5 – for structure and layout
@@ -53,7 +56,6 @@ Design a clean and functional user interface with CSS
 Make layouts adaptive across screen sizes
 
 This project also taught me the importance of balancing design with function — creating something both educational and enjoyable to use.
-<img width="777" height="738" alt="Screenshot 2026-04-07 123503" src="https://github.com/user-attachments/assets/378ef20d-9e1f-462a-94e5-75041a437fd0" />
 
 
 License
